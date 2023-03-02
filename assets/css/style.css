@@ -1,0 +1,592 @@
+/* Start css cho header */
+.header {
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%);
+}
+.header .header_top {
+    background-color: var(--color_1);
+    color: var(--color_2);
+    font-size: 17.6px;
+    text-align: center;
+    padding: 12px;
+}
+.header .header_main {
+    background-color: #fff;
+}
+.header .container .header_bottom {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+.header .container .header_bottom .logo a {
+    display: flex;
+    align-items: center;
+}
+.header .container .header_bottom .logo {
+    flex: 1;
+}
+.header .container .header_bottom .logo img {
+    height: 48px;
+    width: auto;
+}
+.header .container .header_bottom .logo span {
+    font-size: 22.4px;
+    color: var(--color_1);
+    margin-left: 10px;
+    font-weight: bold;
+}
+.header .container .header_bottom .logo span:hover {
+    color: #000;
+}
+.header .container .header_bottom .menu ul {
+    display: flex;
+}
+.header .container .header_bottom .menu ul li a {
+    color: var(--color_1);
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 10px;
+}
+.header .container .header_bottom .menu ul li a:hover {
+    color: var(--color_4);
+}
+.header .container .header_bottom .contact{
+    color: var(--color_3);
+    margin: 0px 32px;
+    font-size: 17.6px;
+}
+.header .container .header_bottom .social {
+    margin: 10px;
+}
+.header .container .header_bottom .social ul {
+    display: flex;
+}
+.header .container .header_bottom .social ul li a {
+    font-size: 24px;
+    margin-right: 32px;
+    color: var(--color_1);
+}
+.bars {
+    display: none;
+}
+/* End css cho header */
+
+/* Start css cho box-big */
+.box-big .container .box-small {
+    display: flex;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+.box-big .container .box-small .left {
+    width: 50%;
+}
+.box-big .container .box-small .right {
+    width: 50%;
+    position: relative;
+}
+.box-big .container .box-small .left h1 {
+    color: var(--color_1);
+    font-size: 60.8px;
+}
+.box-big .container .box-small .left p {
+    color: var(--color_1);
+    font-size: 22.4px;
+    margin-bottom: 32px;
+}
+.box-big .container .box-small .left .list {
+    display: flex;
+    margin-bottom: 32px;
+}
+.box-big .container .box-small .left .list .items {
+    width: 50%;
+    color: var(--color_3);
+    font-weight: bold;
+    font-size: 24px;
+}
+.box-big .container .box-small .left .list .items span {
+    font-size: 20px;
+}
+.box-big .container .box-small .right img {
+    width: 100%;
+}
+.box-big .container .box-small .right .discount {
+    background-color: var(--color_2);
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 15px;
+    right: 115px;
+}
+.box-big .container .box-small .right .discount span {
+    color: var(--color_1);
+    font-weight: bold;
+}
+.box-big .container .box-small .right .discount span:first-child {
+    font-size: 24px;
+}
+.box-big .container .box-small .right .discount span:last-child {
+    font-size: 48px;
+}
+.button_big a {
+    padding: 15px 50px;
+    font-size: 17.6px;
+    background-color: var(--color_2);
+    border-color: var(--color_2); 
+}
+.button_big i {
+    color: var(--color_2);
+}
+.button_big a:hover {
+    color: var(--color_2);
+    border-color: var(--color_2);
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+/* End css cho box-big */
+
+/* Start css three_box*/
+.three_box {
+    display: flex;
+    margin: 80px 0;
+    justify-content: space-between;
+}
+.three_box .box {
+    width: 32%;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+}
+.three_box .box .img {
+    width: 100%;
+    height: 100%;
+}
+.three_box .box .img img {
+    width: 100%;
+    height: 100%;
+}
+.three_box .box .img img:hover {
+    transition: all 0.6s;
+    transform: scale(1.1);
+}
+.three_box .box .content_1 .tag {
+    background-color: var(--color_6);
+    color: #fff;
+    display: inline-block;
+    border-radius: 45px;
+    padding: 3px 15px;
+    font-size: 18px;
+}
+.three_box .box .content_1 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.three_box .box .content_1 p {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.three_box .box .content_1 .button a {
+    font-size: 17.6px;
+    font-weight: bold;
+}
+.three_box .box .content_2 p:nth-child(1) {
+    color: var(--color_1);
+    font-size: 32px;
+    font-weight: bold;
+}
+.three_box .box .content_2 p:nth-child(2) {
+    color: var(--color_2);
+    font-size: 48px;
+    font-weight: bold;
+}
+.three_box .box .content_2 {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+.three_box .box .content_2 p {
+    margin:  0 0 22px 0;
+}
+.three_box .box .content_2 p:nth-child(1) {
+    margin: 10px;
+}
+.three_box .box .content_2 .button a {
+    font-size: 17.6px;
+    font-weight: bold;
+}
+.three_box .box .content_3 p:nth-child(1) {
+    color: var(--color_1);
+    font-weight: bold;
+    font-size: 32px;
+    margin: 8px;
+}
+.three_box .box .content_3 p:nth-child(2) {
+    color: var(--color_2);
+    font-size: 48px;
+    font-weight: bold;
+    margin: 8px;
+}
+.three_box .box .content_3 p:nth-child(3) {
+    color: var(--color_3);
+    font-size: 22.4px;
+    margin: 18px;
+    text-decoration: line-through;
+}
+
+.three_box .box .content_3 .button a {
+    font-size: 17.6px;
+    font-weight: bold;
+}
+.three_box .box .content_3 {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+/* End css cho three_box*/
+
+/* Start css background*/
+.background .container .introduce_small .list_2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.background .container .introduce_small .list_2 i {
+    font-size: 48px;
+    color: var(--color_3);
+}
+.container .introduce_small .list_2 .item_list p:nth-child(2) {
+    font-size: 22.4px;
+    color: var(--color_1);
+    font-weight: bold;
+}
+.container .introduce_small .list_2 .item_list p:nth-child(3) {
+    color: var(--color_3);
+    font-size: 17.6px;
+}
+.background .container .introduce_small .list_1 h2 {
+    color: var(--color_1);
+    font-size: 48px;
+    margin: 0px;
+}
+.background .container .introduce_small .list_1 p:nth-child(2) {
+    color: var(--color_1);
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+}
+.background .container .introduce_small .list_1 p:nth-child(3) {
+    color: var(--color_3);
+    font-size: 22.4px;
+    margin-bottom: 90px;
+}
+.background .container .introduce_small .list_1 {
+    text-align: center;
+}
+.container .introduce_small .list_2 .item_list:nth-child(2) {
+    margin: 0 100px;
+}
+/* End css cho background */
+
+/* Start css cho box_child */
+.container .box_child {
+    display: flex;
+    padding: 80px 0;
+}
+.container .box_child .child {
+    width: 50%;
+}
+.container .box_child .child h2 {
+    color: var(--color_1);
+    font-size: 60.8px;
+}
+.container .box_child .child p {
+    color: var(--color_1);
+    font-size: 22.4px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.container .box_child .child img {
+    width: 100%;
+}
+.container .box_child .child .button a {
+    background-color: var(--color_2);
+    border-color: var(--color_2);
+    font-size: 17.6px;
+    font-weight: bold;
+}
+.container .box_child .child .button a:hover {
+    background-color: #fff;
+    color: var(--color_2);
+}
+/* End css cho box-child */
+
+/* Start css background (5)*/
+.container .information {
+    width: 100%;
+    position: relative;
+}
+.container .information .infor {
+    width: 100%;
+    height: 95px;
+}
+.container .information .infor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .information .text_child i {
+    margin-right: 10px;
+}
+.container .information .text_child {
+    color: #fff;
+    font-size: 17.6px;
+    font-weight: bold;
+    position: absolute;
+    top: 36px;
+    left: 50px;
+}
+.container .information .button a {
+    background-color: var(--color_6);
+    font-weight: bold;
+    font-size: 17.6px;
+    padding: 12px 40px;
+    border-color: var(--color_6);
+    position: absolute;
+    top: 26px;
+    right: 45px;
+}
+.container .information .button a:hover {
+    color: var(--color_6);
+    background-color: #fff;
+}
+/* End css cho background (5) */ 
+
+/* Start css cho five */
+.container .p_container {
+    text-align: center;
+    color: var(--color_1);
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.five .f {
+    width: 20%;
+}
+.five .f .anh {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.five .f .anh img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.five .f .anh img:hover {
+    transition: all 0.4s;
+    transform: scale(1.1);
+}
+.five {
+    display: flex;
+}
+.five .f .noiDung i {
+    color: var(--color_2);
+}
+.five .f .noiDung {
+    padding-left: 15px;
+    padding-bottom: 20px;
+    border: 1px solid #ddd;
+}
+.five .f .noiDung p:nth-child(1) {
+    font-size: 17.6px;
+    color: var(--color_1);
+    margin-bottom: 0px;
+}
+.five .f .noiDung p:nth-child(2) {
+    color: var(--color_1);
+    font-size: 22.4px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+/* End css cho five */
+
+/* Responsive */ 
+@media (max-width: 1199px) {
+    .contact {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .container .header_bottom .social {
+        display: none;
+    }
+    .container .header_bottom .menu {
+        display: none;
+    }
+    .container .header_bottom .bars {
+        display: block;
+        font-size: 28px;
+        cursor: pointer;
+    }
+    .box-big .container .box-small .left {
+        width: 100%;
+        order: 2;
+    }
+    .box-big .container .box-small .right {
+        width: 100%;
+    }
+    .box-big .box-small {
+        flex-wrap: wrap;
+    }
+    .box-big .container .box-small .right .discount {
+        right: 145px;
+    }
+    .three_box .box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .three_box .box:nth-child(1) {
+        height: 210px;
+    }
+    .three_box .box:nth-child(2) {
+        height: 277px;
+    }
+    .three_box .box:nth-child(3) {
+        height: 277px;
+    }
+    .three_box {
+        flex-wrap: wrap;
+    }
+    .three_box .box .img img {
+        object-fit: cover;
+    }
+    .three_box .box .content_1 p {
+        margin-bottom: 20px;
+    }
+    .container .introduce_small .list_2 .item_list:nth-child(1) {
+        width: 50%;
+    }
+    .container .introduce_small .list_2 .item_list:nth-child(2) {
+        margin: 0px;
+        width: 50%;
+    }
+    .background .container .introduce_small .list_2 {
+        flex-wrap: wrap;
+    }
+    .container .introduce_small .list_2 .item_list:nth-child(3) {
+        margin-top: 30px;
+        width: 50%;
+    } 
+    .container .box_child .child h2 {
+        margin-top: 0px;
+        font-size: 48px;   
+    }
+    .container .box_child .child p {
+        margin-bottom: 32px;
+    }
+    .container .information .infor {
+        height: 185px;
+    }
+    .container .information .button a {
+        top: 100px;
+        right: 286px;
+    }
+    .five .f {
+        width: 50%
+    }
+    .five {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 767px) {
+    .box-big .container .box-small .left {
+        text-align: center;
+    }
+    .box-big .container .box-small .left .list .items {
+        width: 100%;
+    }
+    .box-big .container .box-small .left .list {
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+    .box-big .container .box-small .left .list .items:nth-child(1) {
+        margin-bottom: 30px;
+    }
+    .box-big .container .box-small .right .discount {
+        width: 100px;
+        height: 100px;
+        right: 100px;
+    }
+    .three_box .box .content_1 p br {
+        display: none;
+    }
+    .container .introduce_small .list_2 .item_list:nth-child(1) {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .container .introduce_small .list_2 .item_list:nth-child(2) {
+        width: 100%;
+    }
+    .container .introduce_small .list_2 .item_list:nth-child(3) {
+        width: 100%;
+    }
+    .container .box_child .child {
+        width: 100%;
+    }
+    .container .box_child {
+        flex-wrap: wrap;
+    }
+    .container .box_child .child:nth-child(1) {
+        text-align: center;
+        order: 2;
+    }
+    .container .box_child .child:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    .container .box_child .child h2 {
+        font-size: 60.8px;
+    }
+    .container .information .infor {
+        height: 220px;
+    }
+    .container .information .button a {
+        top: 135px;
+        right: 196px;
+    }
+    .container .information .text_child {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .container .information .text_child i {
+        margin-bottom: 15px;
+    }
+    .five .f {
+        width: 100%;
+    }
+    .five .f .noiDung {
+        text-align: center;
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+    .container .box_child .child h2 {
+        font-size: 47px;
+    }
+    .container .box_child .child h2 br:nth-child(1){
+        display: none;
+    }
+}
